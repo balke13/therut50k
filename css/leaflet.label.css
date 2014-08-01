@@ -1,0 +1,18 @@
+.leaflet-label {
+	font: 10px "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	color: #ffffff;
+	text-shadow: 0 0 10px #000000;
+	position: absolute;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	white-space: nowrap;
+	z-index: 6;
+}
+
+.leaflet-label.leaflet-clickable {
+	cursor: pointer;
+}
+
