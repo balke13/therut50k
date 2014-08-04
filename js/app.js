@@ -144,7 +144,7 @@ function main() {
 
 	
 	var map = new L.map(document.querySelector('#map'),{
-		center: new L.LatLng(45.35, -111.419),
+		center: new L.LatLng(45.2777664, -111.4135768),
 		zoom: 13,
 		layers:[bingMapLayer, firstAidLayer, startFinishLayer, skiLiftsPtsLayer, skiLiftsLayer, routeMarkersLayer]
 	});
